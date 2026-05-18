@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# TRS6023 - Quantitative Methods for Computer Science AI Assistant
 
-# Run and deploy your AI Studio app
+An open-source AI-powered utility web application designed to assist students and educators with the **TRS6023: Quantitative Methods for Computer Science** syllabus. Built using Google AI Studio.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
+* **Syllabus-Aligned AI Chat:** Tailored to assist with quantitative computer science concepts.
+* **Interactive Web UI:** Clean, responsive interface for submitting prompts and analyzing data.
 
-View your app in AI Studio: https://ai.studio/apps/42e3e436-261e-4db5-8750-41aaed1d3829
+## 🛠️ Tech Stack & Prerequisites
+* **Frontend/Runtime:** Node.js (Vite + TypeScript)
+* **AI Engine:** Google Gemini API (via Google AI Studio)
 
-## Run Locally
+## 💻 Local Setup & Installation
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/tili200/TRS6023-QUANTITATIVE-METHODS-FOR-COMPUTER-SCIENCE.git](https://github.com/tili200/TRS6023-QUANTITATIVE-METHODS-FOR-COMPUTER-SCIENCE.git)
+   cd TRS6023-QUANTITATIVE-METHODS-FOR-COMPUTER-SCIENCE
