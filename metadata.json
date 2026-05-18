@@ -1,0 +1,6 @@
+{
+  "name": "MSU ODL Excellence Portal - TRS6023",
+  "description": "A professional ODL platform for postgraduate students at Management and Science University, under the TRS6023 Quantitative Methods For Computer Science module.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

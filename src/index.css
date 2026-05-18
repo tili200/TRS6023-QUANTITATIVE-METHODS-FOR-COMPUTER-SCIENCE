@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary: #B91C1C;
+  --color-primary-container: #881337;
+  --color-on-primary: #ffffff;
+  --color-surface: #ffffff;
+  --color-on-surface: #000000;
+  --color-outline: #000000;
+  --color-outline-variant: #e5e5e5;
+  --color-secondary: #4b5563;
+  --color-background: #ffffff;
+  --color-on-background: #000000;
+
+  --radius-xs: 0rem;
+  --radius-sm: 0rem;
+  --radius-md: 0rem;
+  --radius-lg: 0rem;
+  --radius-xl: 0rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-on-background font-sans;
+  }
+}
+
+@layer components {
+  .academic-card {
+    @apply bg-white border-b-4 border-black shadow-none overflow-hidden;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-2.5 rounded-none font-black uppercase tracking-widest hover:bg-black transition-all active:scale-[0.98];
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-black text-black px-6 py-2.5 rounded-none font-black uppercase tracking-widest hover:bg-black hover:text-white transition-all active:scale-[0.98];
+  }
+
+  .nav-item {
+    @apply flex items-center px-6 py-4 text-on-background font-bold tracking-tight transition-all hover:bg-primary hover:text-white border-b border-black/5;
+  }
+  
+  .nav-item-active {
+    @apply bg-black text-white hover:bg-black font-black;
+  }
+}
